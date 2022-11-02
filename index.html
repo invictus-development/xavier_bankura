@@ -12,7 +12,7 @@
     <mini-top>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="#"><i class="bi bi-telephone"></i> +91 0000000000</a>
@@ -25,12 +25,20 @@
               </li>
             </ul>
 
-            <form class="d-flex" role="search">
-              <button class="btn btn-outline-light m-1"><i class="bi bi-instagram"></i></button>
-              <button class="btn btn-outline-light m-1"><i class="bi bi-twitter"></i></button>
-              <button class="btn btn-outline-light m-1"><i class="bi bi-facebook"></i></button>
-            </form>
-          </div>
+            <div class="navbar-header navbar-right pull-right">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a class="btn btn-outline-light m-1" href=""><i class="bi bi-instagram"></i></a></li>
+                <li><a class="btn btn-outline-light m-1" href=""><i class="bi bi-twitter"></i></a></li>
+                <li><a class="btn btn-outline-light m-1" href=""><i class="bi bi-facebook"></i></a></li>
+              </ul>
+            </div>
+
+            <!-- <form class="d-flex" role="search">
+              <button class="btn btn-outline-light m-1"></button>
+              <button class="btn btn-outline-light m-1"></button>
+              <button class="btn btn-outline-light m-1"></button>
+            </form> -->
+          <!-- </div> -->
         </div>
       </nav>
     </mini-top>
@@ -39,9 +47,9 @@
             <marquee behavior="scroll" direction="left" style="color: yellow;">Your scrolling info goes here</marquee>
         </slider>
         <header class="container">
-            <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+            <nav class="navbar navbar-expand-md navbar-dark bg-success">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="#">St. Xavier's High School Bankura</a>
+                  <a class="navbar-brand" href="#"><img src="./assets/logo.png" alt="" height="60px"></a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
@@ -58,10 +66,11 @@
                             Academics
                         </a>
                         <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Curriculum</a></li>
                           <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                          <li><a class="dropdown-item" href="#">Our Silent Features</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Co-Curricular Activities</a></li>
                         </ul>
                       </li>
                       <li class="nav-item">
@@ -106,96 +115,99 @@
             </button>
           </div>
     </carousel>
-    <section class="m-4">
+    <section class="m-4 section-3">
       <div class="container text-center">
         <div class="row">
-          <div class="col-4">
-            <div class="card text-bg-primary shadow-lg p-3 mb-5 rounded" style="width: 18rem;">
-              <img src="./assets/award.png" class="card-img-top" alt="...">
+          <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+            <div class="card shadow-lg p-3 mb-5 rounded">
+              <i class="bi bi-star card-img-top"></i>
+              <!-- <img src="./assets/award.png" class="card-img-top" alt="..."> -->
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">15+ YEARS COMPLETED</p>
               </div>
             </div>
           </div>
-          <div class="col-4">
-            <div class="card text-bg-success shadow-lg p-3 mb-5 rounded" style="width: 18rem;">
-              <img src="./assets/megaphone.png" class="card-img-top" alt="...">
+          <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+            <div class="card shadow-lg p-3 mb-5 rounded">
+              <i class="bi bi-people card-img-top"></i>
+              <!-- <img src="./assets/megaphone.png" class="card-img-top" alt="..."> -->
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">1000+ STUDENTS JOINED</p>
               </div>
             </div>
           </div>
-          <div class="col-4">
-            <div class="card text-bg-info shadow-lg p-3 mb-5 rounded" style="width: 18rem;">
-              <img src="./assets/trophy.png" class="card-img-top" alt="...">
+          <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+            <div class="card shadow-lg p-3 mb-5 rounded">
+              <i class="bi bi-eye card-img-top"></i>
+              <!-- <img src="./assets/trophy.png"  alt="..."> -->
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">40+ Faculities</p>
               </div>
             </div>
           </div>
         </div>
         </div>
     </section>
-    <section style="background-color: darkseagreen;">
-      <h1 class="text-center m-2">Activities</h1>
-      <hr class="border border-danger border-2 opacity-100" style="width: 20%;margin:auto;">
+    <section class="bg-success pb-4 px-2 py-2 section-4">
+      <h1 class="text-center m-2 text-white">Activities</h1>
+      <hr class="bg-danger border border-danger border-2 opacity-100" style="width: 20%;margin:auto;">
       <div class="row mb-4 mt-2">
         <div class="col-12">
           <div class="card-group">
-            <div class="card border border-success border-5 grow">
-              <img src="./assets/act.jpeg" class="card-img-top" alt="...">
+            <div class="card border border-5 grow">
+              <img src="./assets/activity_1.jpg" class="card-img-top img-fluid" alt="...">
             </div>
-            <div class="card border border-success border-5 grow">
-              <img src="./assets/act.jpeg" class="card-img-top" alt="...">
+            <div class="card border border-5 grow">
+              <img src="./assets/activity_2.jpg" class="card-img-top img-fluid" alt="...">
             </div>
-            <div class="card border border-success border-5 grow">
-              <img src="./assets/act.jpeg" class="card-img-top" alt="...">
+            <div class="card border border-5 grow">
+              <img src="./assets/activity_3.jpg" class="card-img-top img-fluid" alt="...">
             </div>
-            <div class="card border border-success border-5 grow">
-              <img src="./assets/act.jpeg" class="card-img-top" alt="...">
+            <div class="card border border-5 grow">
+              <img src="./assets/activity_4.jpg" class="card-img-top img-fluid" alt="...">
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="container-fluid mb-4" style="background-color: whitesmoke;">
+    <section class="container-fluid mb-4 section-5">
       <h1 class="text-center m-2">Useful Links</h1>
-      <hr class="border border-danger border-2 opacity-100" style="width: 20%;margin:auto;">
+      <hr class="bg-danger border border-danger border-2 opacity-100" style="width: 20%;margin:auto;">
       <div class="row mb-4 mt-2">
-        <div class="col-4">
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
           <div class="card grow">
             <div class="card-body">
-              <h5 class="card-title"><i class="bi bi-award"></i>&nbsp;Admissions 2023-24 & Fees</h5>
+              <h5 class="card-title"><i class="bi bi-ticket"></i>&nbsp;Admissions 2023-24 & Fees</h5>
             </div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item"><i class="bi bi-arrow-right-short"></i> An item</li>
-              <li class="list-group-item"><i class="bi bi-arrow-right-short"></i> A second item</li>
-              <li class="list-group-item"><i class="bi bi-arrow-right-short"></i> A third item</li>
+              <li class="list-group-item"><i class="bi bi-arrow-right-short"></i> {Session 2023-2024} Admission are open for the session 2023-2024 for all classes at St. Xavier's High School, Bankura. The registration forms are issued on all working days i.e. 08:00 a.m. to 02:00 p.m. from school office.</li>
+              <li class="list-group-item"><i class="bi bi-arrow-right-short"></i> <a class="text-decoration-none text-success" target="_blank" href="./assets/2022-2023.pdf">FEES STRUCTURE 2022-2023</a></li>
+              <!-- <li class="list-group-item"><i class="bi bi-arrow-right-short"></i> A third item</li> -->
             </ul>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
           <div class="card grow">
             <div class="card-body">
-              <h5 class="card-title"><i class="bi bi-award"></i>&nbsp;Admissions 2023-24 & Fees</h5>
+              <h5 class="card-title"><i class="bi bi-clipboard"></i>&nbsp;Notice Board</h5>
             </div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item"><i class="bi bi-arrow-right-short"></i> An item</li>
-              <li class="list-group-item"><i class="bi bi-arrow-right-short"></i> A second item</li>
-              <li class="list-group-item"><i class="bi bi-arrow-right-short"></i> A third item</li>
+              <li class="list-group-item"><i class="bi bi-arrow-right-short"></i> Dear Students, This is to inform you all that Government has already declared Summer Holiday for excessive heat. So, Monday onwards i.e 09.05.2023 our school has decided to continue our classes through Online/Virtual mode (via Google Meet Application) to carry on our syllabus.</li>
+              <!-- <li class="list-group-item"><i class="bi bi-arrow-right-short"></i> Dear Students, This is to inform you all that from 23.05.2023 (Monday) to 15.06.2023 (Wednesday) our school will be closed for the SUMMER VACATION. Office shall remain open from 08.00 am to 02.00 pm.</li> -->
+              <!-- <li class="list-group-item"><i class="bi bi-arrow-right-short"></i> A third item</li> -->
             </ul>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
           <div class="card grow">
             <div class="card-body">
-              <h5 class="card-title"><i class="bi bi-award"></i>&nbsp;Admissions 2023-24 & Fees</h5>
+              <h5 class="card-title"><i class="bi bi-calendar-event"></i>&nbsp;Upcoming Events</h5>
             </div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item"><i class="bi bi-arrow-right-short"></i> An item</li>
-              <li class="list-group-item"><i class="bi bi-arrow-right-short"></i> A second item</li>
-              <li class="list-group-item"><i class="bi bi-arrow-right-short"></i> A third item</li>
+              <li class="list-group-item"><i class="bi bi-arrow-right-short"></i> WORLD WATER WEEK- MARATHON RUN IN COLLABORATION WITH MINA GULI</li>
+              <li class="list-group-item"><i class="bi bi-arrow-right-short"></i> WORLD WATER WEEK- MARATHON RUN IN COLLABORATION WITH MINA GULI</li>
+              <li class="list-group-item"><i class="bi bi-arrow-right-short"></i> YELLOW DAY</li>
             </ul>
           </div>
         </div>
@@ -204,44 +216,56 @@
         <div class="col-12">
           <div class="card-group">
             <div class="card border border-success border-5">
-              <img src="./assets/yt.png" class="card-img-top" alt="...">
+              <!-- <img src="./assets/yt.png" class="card-img-top" alt="..."> -->
+              <video class="card-img-top" controls>
+                <source  src="./assets/video/English.mp4" type="video/mp4">
+              </video>
             </div>
             <div class="card border border-success border-5">
-              <img src="./assets/yt.png" class="card-img-top" alt="...">
+              <!-- <img src="./assets/yt.png" class="card-img-top" alt="..."> -->
+              <video class="card-img-top" controls>
+                <source src="./assets/video/Class 9 Science.mp4" type="video/mp4">
+              </video>
             </div>
             <div class="card border border-success border-5">
-              <img src="./assets/yt.png" class="card-img-top" alt="...">
+              <!-- <img src="./assets/yt.png" class="card-img-top" alt="..."> -->
+              <video class="card-img-top" controls>
+                <source src="./assets/video/English.mp4" type="video/mp4">
+              </video>
             </div>
             <div class="card border border-success border-5">
-              <img src="./assets/yt.png" class="card-img-top" alt="...">
+              <!-- <img src="./assets/yt.png" class="card-img-top" alt="..."> -->
+              <video class="card-img-top" controls>
+                <source src="./assets/video/Rutherford’s Atomic Model.mp4" type="video/mp4">
+              </video>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="mb-4">
+    <section class="mb-4 section-6">
      <div class="container">
       <div class="row">
-        <div class="col-4 text-center">
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4 mb-1 text-center">
           <button type="button" class="btn btn-primary btn-lg"><i class="bi bi-download"></i> View Prospectus</button>
         </div>
-        <div class="col-4 text-center">
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4 mb-1 text-center">
           <button type="button" class="btn btn-success btn-lg"><i class="bi bi-pencil"></i> 360 View School</button>
         </div>
-        <div class="col-4 text-center">
-          <button type="button" class="btn btn-warning btn-lg"><i class="bi bi-download"></i> 360 View School</button>
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4 mb-1 text-center">
+          <button type="button" class="btn btn-warning btn-lg"><i class="bi bi-eye"></i> 360 View School</button>
         </div>
       </div>
      </div>
     </section>
-    <section style="background-image: url('./assets/bg.jpg');">
+    <section style="background-image: url('./assets/bg.jpg');background-size: cover;" class="section-7">
       <div class="container">
         <div class="row">
-          <div class="col-6">
-            <h3 class="text-center m-2">Football Ground</h3>
-            <hr class="border border-danger border-2 opacity-100">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+            <h3 class="text-center m-2 text-white">Football Ground</h3>
+            <hr class="bg-danger border border-danger border-2 opacity-100">
             <div class="card mb-3 border border-dark border-5">
-              <img src="./assets/football.jpeg" class="card-img-top" alt="...">
+              <img src="./assets/football.jpg" class="card-img-top" alt="...">
               <!-- <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -249,9 +273,9 @@
               </div> -->
             </div>
           </div>
-          <div class="col-6">
-            <h3 class="text-center m-2">Competitive Exams</h3>
-            <hr class="border border-danger border-2 opacity-100">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+            <h3 class="text-center m-2 text-white">Competitive Exams</h3>
+            <hr class="bg-danger border border-danger border-2 opacity-100">
             <div class="card text-white bg-dark">
               <div class="card-body">
                 <!-- <h5 class="card-title">Card title</h5> -->
@@ -293,40 +317,47 @@
             </a>
           </div>
       
-          <!-- <div class="col mb-3">
+          <div class="col mb-3">
+            <h2>Contact Info</h2>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2 text-white"><strong>Address : </strong>Damodarpur, Near Puabagan, Dist: Bankura, West Bengal-722146</li>
+              <li class="nav-item mb-2"><strong>Phone : </strong>8972804008, 7908228688, 9083521768, 9476169618</li>
+              <li class="nav-item mb-2"><strong>Email : </strong>st.xaviersbankura@gmail.com</li>
+              <!-- <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Links</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Links</a></li> -->
+            </ul>
+          </div>
       
+          <div class="col mb-3">
+            <!-- <h5>Resources</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Links</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Links</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Links</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Links</a></li>
+            </ul> -->
+          </div>
+      
+          <!-- <div class="col mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Links</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Links</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Links</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Links</a></li>
+            </ul>
           </div> -->
       
           <div class="col mb-3">
-            <h5>Section</h5>
+            <h5>Quick Links</h5>
             <ul class="nav flex-column">
               <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Home</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Links</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Links</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Links</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Links</a></li>
-            </ul>
-          </div>
-      
-          <div class="col mb-3">
-            <h5>Section</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Home</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Links</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Links</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Links</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Links</a></li>
-            </ul>
-          </div>
-      
-          <div class="col mb-3">
-            <h5>Section</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Home</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Links</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Links</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Links</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Links</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Jobs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Alumni</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">The School</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Curriculum</a></li>
             </ul>
           </div>
         </footer>
