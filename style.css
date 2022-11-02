@@ -17,8 +17,58 @@
     
     .grow:hover { 
     transform: scale(1.1); 
+    z-index: 999;
     }
 
     header .nav-link:hover{
         background-color: black;
     }
+    .section-3 .card i{
+        font-size: 5vh;
+        color:rgba(25,135,84,1)!important;
+    }
+    .section-5 .row, .section-5 .list-group .list-group-item{
+        color: rgba(25,135,84,1)!important;
+    }
+    .dropdown-item:hover{
+        background-color: black;
+        color:#FFF
+    }
+video source{
+    height: min-content !important;
+}
+/* media queries */
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+    /* *{
+        font-size: x-large;
+    } */
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* *{
+        font-size: large;
+    } */
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    /* *{
+        font-size: small;
+    } */
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    /* *{
+        font-size: x-small;
+    } */
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+    /* *{
+        font-size: xx-small;
+    } */
+}
