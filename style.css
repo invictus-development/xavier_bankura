@@ -21,19 +21,39 @@
     }
 
     header .nav-link:hover{
-        background-color: black;
+        background-color: #FFF;
+    }
+    header .nav-link{
+        color:black !important;
+    }
+    .card-group{
+        color:black !important
     }
     .section-3 .card i{
         font-size: 5vh;
-        color:rgba(25,135,84,1)!important;
+        color:rgba(--var(--bs-dark))!important;
     }
     .section-5 .row, .section-5 .list-group .list-group-item{
-        color: rgba(25,135,84,1)!important;
+        color: rgba(--var(--bs-dark))!important;
     }
     .dropdown-item:hover{
         background-color: black;
         color:#FFF
     }
+    .useful_links{
+        min-height: 20rem !important;
+        max-height: 20rem !important;
+    }
+    /* Hide scrollbar for Chrome, Safari and Opera */
+.scrollbar-hidden ul::-webkit-scrollbar {
+    display: none !important;
+  }
+  
+  /* Hide scrollbar for IE, Edge add Firefox */
+  .scrollbar-hidden ul{
+    -ms-overflow-style: none !important;
+    scrollbar-width: none !important; /* Firefox */
+  }
 video source{
     height: min-content !important;
 }
