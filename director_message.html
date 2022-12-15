@@ -6,9 +6,18 @@
     <title>St. Xavier's High School Bankura</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-   <!-- Font Awesome -->
-   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
+    <style>
+        .tick {
+  list-style: none;
+}
+
+.tick li:before {
+  content: '✓';
+  color: green;
+  font-size: xx-large;
+}
+    </style>
   </head>
   <body>
     <mini-top>
@@ -109,70 +118,21 @@
     </main>
 
     <section class="pb-4 px-2 py-2 mt-4 section-4">
-        <h1 class="text-center m-2">CONTACT US</h1>
+        <h1 class="text-center m-2">DIRECTOR</h1>
         <hr class="bg-danger border border-danger border-2 opacity-100" style="width: 20%;margin:auto;">
-        <div class="container-fluid pt-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-7 mb-5">
-                        <div class="contact-form">
-                            <div id="success"></div>
-                            <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                                <div class="control-group">
-                                    <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="control-group">
-                                    <input type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="control-group">
-                                    <input type="text" class="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="control-group">
-                                    <textarea class="form-control" rows="6" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div>
-                                    <button class="btn btn-primary py-2 px-4" type="submit" id="sendMessageButton">Send Message</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                    <div class="col-lg-5 mb-5">
-                        <div class="d-flex">
-                            <i class="fa fa-map-marker-alt d-inline-flex align-items-center justify-content-center bg-primary text-secondary rounded-circle text-white" style="width: 45px; height: 45px;"></i>
-                            <div class="pl-3">
-                                <h5>Address</h5>
-                                <p>Damodarpur, Near Puabagan, Dist: Bankura, West Bengal-722146</p>
-                            </div>
-                        </div>
-                        <div class="d-flex">
-                            <i class="fa fa-envelope d-inline-flex align-items-center justify-content-center bg-primary text-secondary rounded-circle text-white" style="width: 45px; height: 45px;"></i>
-                            <div class="pl-3">
-                                <h5>Email</h5>
-                                <p> st.xaviersbankura@gmail.com</p>
-                            </div>
-                        </div>
-                        <div class="d-flex">
-                            <i class="fa fa-phone-alt d-inline-flex align-items-center justify-content-center bg-primary text-secondary rounded-circle text-white" style="width: 45px; height: 45px;"></i>
-                            <div class="pl-3">
-                                <h5>Phone</h5>
-                                <p>8972804008, 7908228688, 9083521768, 9476169618</p>
-                            </div>
-                        </div>
-                        <div class="d-flex">
-                            <i class="far fa-clock d-inline-flex align-items-center justify-content-center bg-primary text-secondary rounded-circle text-white" style="width: 45px; height: 45px;"></i>
-                            <div class="pl-3">
-                                <h5>Opening Hours</h5>
-                                <strong>Monday - Friday:</strong>
-                                <p class="m-0">08:00 AM - 05:00 PM </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="row mb-4 mt-2">
+          <div class="col-12 d-flex justify-content-center">
+            <img src="./images/director.jpg" class="" alt="">
+          </div>
+          <div class="col-12">
+            <div class="card-group container">
+              <div class="text-justify mt-4">
+               <h5 style="line-height: 3rem;">
+                Every child is unique. We understand that our students have high potential.  We have to surface it and give proper direction. I love the children from the bottom of my heart. I would like to quote my very favorite saying, "Do the best, and forget the rest." Today when there is a razor edge competition at every stage, it is very important that each student learn the lesson of life skill very well. It will help them to move ahead with full confidence and even if one fails one is up on one's feet once again with new hope.
+               </h5>
+              </div>
             </div>
+          </div>
         </div>
       </section>
 
@@ -238,10 +198,5 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <!-- Contact Javascript File -->
-    <script src="mail/jqBootstrapValidation.min.js"></script>
-    <script src="mail/contact.js"></script>
   </body>
 </html>
